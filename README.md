@@ -11,7 +11,7 @@ Thin GitHub Actions wrapper for the freedesktop.org namespace mirror.
   `freedesktop/*` beneath `glab-forks`
 - Runs deterministic mirror batch shards with five jobs max in parallel
 - Schedules at minute 5 of hours 1, 7, 13, and 19 UTC
-- Publishes plan, report, CSV, JSON, and Parquet artifacts for each run
+- Publishes discovery, plan, report, CSV, JSON, and Parquet artifacts for each run
 
 ## Validation
 
