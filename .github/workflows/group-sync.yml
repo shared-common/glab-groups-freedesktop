@@ -3,7 +3,7 @@ name: freedesktop-group-sync
 
 "on":
   schedule:
-    - cron: "5 2,14 * * *"
+    - cron: "5 16 2-30/2 * *"
   workflow_dispatch:
 
 permissions: {}
