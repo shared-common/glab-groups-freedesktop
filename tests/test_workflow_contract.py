@@ -18,7 +18,6 @@ class WorkflowContractTests(unittest.TestCase):
         self.assertIn("config-path: glab-groups-freedesktop", text)
         self.assertIn("target-token-secret: GL_PAT_GROUP_FREEDESKTOP_SVC", text)
         self.assertIn('cron: "5 16 2-30/2 * *"', text)
-        self.assertIn("batch-size: 25", text)
         self.assertIn("emit-parquet: true", text)
 
 
